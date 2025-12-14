@@ -9,6 +9,7 @@
         'views/patient_views.xml',
         'views/doctor_views.xml',
         'views/appointment_views.xml',
+        'views/menu_views.xml',  # ← أضفنا القوائم
     ],
     'installable': True,
     'application': True,
