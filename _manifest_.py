@@ -6,12 +6,13 @@
     'author': 'Mohamed Alaa',
     'depends': ['base', 'mail'],
     'data': [
+        'security/ir.model.access.csv',
         'views/patient_views.xml',
         'views/doctor_views.xml',
         'views/appointment_views.xml',
-        'views/menu_views.xml',  # ← أضفنا القوائم
+        'views/menu_views.xml',
     ],
     'installable': True,
     'application': True,
-    'license': 'LGPL-3',
+    'license': 'LGPL-3',  # ← أضفنا الـ license
 }

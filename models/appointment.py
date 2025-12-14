@@ -75,12 +75,12 @@ class ClinicAppointment(models.Model):
     
     diagnosis = fields.Text(
         string='التشخيص',
-        states={'done': [('readonly', True)]}
+        
     )
     
     prescription = fields.Text(
         string='الوصفة الطبية',
-        states={'done': [('readonly', True)]}
+        
     )
     
     notes = fields.Text(
