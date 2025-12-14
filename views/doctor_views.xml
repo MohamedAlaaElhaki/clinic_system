@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_doctor_list" model="ir.ui.view">
+        <field name="name">clinic.doctor.list</field>
+        <field name="model">clinic.doctor</field>
+        <field name="arch" type="xml">
+            <list string="الأطباء">
+                <field name="name"/>
+                <field name="specialty"/>
+            </list>
+        </field>
+    </record>
+</odoo>

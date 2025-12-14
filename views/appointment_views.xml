@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_appointment_list" model="ir.ui.view">
+        <field name="name">clinic.appointment.list</field>
+        <field name="model">clinic.appointment</field>
+        <field name="arch" type="xml">
+            <list string="المواعيد">
+                <field name="name"/>
+                <field name="patient_id"/>
+                <field name="doctor_id"/>
+            </list>
+        </field>
+    </record>
+</odoo>
